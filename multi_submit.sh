@@ -4,20 +4,24 @@
 #
 # Charles W. Swartz VI
 #
+# Will Replace:
+#  1) xxNUMxx     submission number
+#  2) xxINPUTxx   input file name
+#  3) xxOUTPUTxx  output file name
+#
+# Command Line arguments:
+# 1) Starting calculation number (NOT Production Number!!)
+# 2) Ending calculation number (NOT Production Number!!)
+# 3) (Optional) Job-ID that the first number is dependent upon
+#    if no jobs are currently running, queued, or held this is
+#    NOT needed
+#
+# IMPORTANT: Must be submitted in the main directory!
+# This directory will contain the pseudo-potentials, 
+# and all the template input and submit files
 #
 #############################################################
 
-
-#IMPORTANT: Must be submitted in the main directory!
-#This directory will contain the pseudo-potentials, 
-#and all the template input and submit files
-
-#Command Line arguments:
-#1-Starting calculation number (NOT Production Number!!)
-#2-Ending calculation number (NOT Production Number!!)
-#3-(Optional) Job-ID that the first number is dependent upon
-#  if no jobs are currently running, queued, or held this is
-#  NOT needed
 
 #********************************
 # Machine dependent
